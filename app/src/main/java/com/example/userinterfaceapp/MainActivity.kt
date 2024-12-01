@@ -25,17 +25,21 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
 
         drawerLayout = findViewById(R.id.drawer_layout)
+        val navView: NavigationView = findViewById(R.id.nav_view)
 
-
-        // Gestion du clic sur le bouton
+        // Pour passer à l'activité suivante
         val btnNextActivity: Button = findViewById(R.id.btnNextActivity)
         btnNextActivity.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
 
-        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
-        val navView: NavigationView = findViewById(R.id.nav_view)
+
+        // Bouton pour ouvrir le menu
+        val btnOpenDrawer: Button = findViewById(R.id.btnOpenDrawer)
+        btnOpenDrawer.setOnClickListener {
+            drawerLayout.openDrawer(navView) // Ouvre le menu latéral
+        }
 
         // Gestion de la navigation dans le menu
         navView.setNavigationItemSelectedListener { menuItem ->
