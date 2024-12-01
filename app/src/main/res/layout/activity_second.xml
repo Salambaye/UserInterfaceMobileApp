@@ -6,37 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-
-    <androidx.drawerlayout.widget.DrawerLayout
-        android:id="@+id/drawer_layout"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"> <!-- Le DrawerLayout permet d'ajouter un menu latéral qui peut être ouvert ou fermé par l'utilisateur pour naviguer entre les écrans. -->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <!-- Content de MainActivity -->
-            <TextView
-                android:id="@+id/tvTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bienvenue à l'application UI"/>
-
-            <Button
-                android:id="@+id/btnNextActivity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-        <com.google.android.material.navigation.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            app:menu="@menu/nav_menu"/> <!-- NavigationView est utilisé pour afficher le menu de navigation dans le DrawerLayout. Pensez à bien configurer les éléments de menu. -->
-    </androidx.drawerlayout.widget.DrawerLayout>
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
