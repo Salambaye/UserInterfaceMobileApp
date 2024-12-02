@@ -3,9 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
     android:background="@drawable/item_background"
     android:layout_margin="8dp"
     android:padding="16dp">
+=======
+    android:padding="8dp">
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 
 
     <TextView
@@ -14,9 +18,15 @@
         android:layout_height="wrap_content"
         android:text="Titre du Livre"
         android:textSize="16sp"
+<<<<<<< HEAD
         android:textColor="@android:color/black"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+=======
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 
     <TextView
         android:id="@+id/tvBookAuthor"
@@ -24,8 +34,15 @@
         android:layout_height="wrap_content"
         android:text="Auteur"
         android:textSize="14sp"
+<<<<<<< HEAD
         android:textColor="@android:color/darker_gray"
         app:layout_constraintTop_toBottomOf="@id/tvBookTitle"
         app:layout_constraintStart_toStartOf="parent" />
+=======
+        app:layout_constraintTop_toBottomOf="@id/tvBookTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp"/>
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 
 </androidx.constraintlayout.widget.ConstraintLayout>

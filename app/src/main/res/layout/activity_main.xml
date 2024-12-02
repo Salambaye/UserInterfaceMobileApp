@@ -24,8 +24,12 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
             android:layout_marginTop="32dp"
             android:contentDescription="Titre de l'application"/>
+=======
+            android:layout_marginTop="32dp" />
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 
         <!-- Bouton pour ouvrir le menu -->
         <Button
@@ -38,8 +42,12 @@
             app:layout_constraintTop_toBottomOf="@id/tvTitle"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
             android:layout_margin="24dp"
             android:contentDescription="Ouvre le menu de navigation pour accéder à d'autres options" />
+=======
+            android:layout_margin="24dp" />
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 
 
 
@@ -55,8 +63,12 @@
             app:layout_constraintTop_toBottomOf="@id/btnOpenDrawer"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
             android:layout_marginTop="16dp"
             android:contentDescription="Ce bouton permet de naviguer vers la prochaine activité pour continuer l'expérience utilisateur" />
+=======
+            android:layout_marginTop="16dp"/>
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -67,6 +79,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/nav_menu"
+<<<<<<< HEAD
         app:headerLayout="@layout/nav_header"
         android:contentDescription="Menu de navigation avec des options supplémentaires"/>
+=======
+        app:headerLayout="@layout/nav_header" />
+>>>>>>> 9d08ec0a96c8b170ad66bb70800e898da7a2b0e1
 </androidx.drawerlayout.widget.DrawerLayout>
