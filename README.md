@@ -40,4 +40,4 @@ Le projet est structuré de manière à séparer les différentes activités et 
 Nom de l'auteure : Salamata Nourou MBAYE
 
 ## Vidéo de présentation de l'app
-[![Vidéo de présentation]("C:\Users\DELL\AndroidStudioProjects\Screen_recording_UIApp.webm")
+[![Vidéo de présentation](https://img.youtube.com/vi/rqK-kCXrOH8/0.jpg)](https://www.youtube.com/watch?v=rqK-kCXrOH8))
